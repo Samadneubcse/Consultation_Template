@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+
+*{margin:0;padding:0}
+body{
+	font-family:poppins Regular ;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5 ease;
+	margin-bottom:0px;
+	padding-bottom:0px;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+a{
+	text-decoration:none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+p{
+	line-height:150%;
+	margin-bottom:2em;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+/*-------- headersection design ---------->*/
+
+#header{
+	background-color:
+}
+.niv{
+	margin-left:220px;
+	padding:20px;
+	text-align:right;
+	color:black;
+}
+.niv li{
+	padding-left:25px;
+	padding-top:5px;
+	color:black;
+}
+#headimg{
+	display:inline-block;
+	width:100%;
+	height:880px;
+	background:url(image/bg.png) no-repeat;
+	background-position:cover;
+	opacity: 5.5;
+	
+}
+button{
+	background-color:#3399cc;
+	padding:10px 30px;
+	color:white;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+/*-------- 2nd section design ---------->*/
+#help{
+	overflow:hidden;
+}
+.af h3{
+	font-size:20px;
+	color:#6699ff;
+}
+.af h1{
+	font-size:58px;
+	color:black;
+	padding-bottom:30px;
+}
+.text-company{
+	padding-top:200px;
+	padding-left:100px;
+}
+#help h4{
+	font-size:20px;
+	font-weight:Bold;
+	padding-top:25px;
+	
+}
+.4-icon{
+	padding:140px;
+}
+.web{
+	top:-10px;
+}
+/*-------- consult service section design ---------->*/
+.coler{
+	background-color:#0099ff;
+	margin-bottom:10px;
+}
+.coler .bt{
+	background-color:white;
+	color:#336666;
+}
+.serve{
+	text-align:center;
+	font-family:poppins Regular;
+	padding-bottom:40px;
+	padding-top:130px;
+}
+.serve-d{
+	height:350px;
+	padding:20px;
+	
+}
+.serve-d:hover{
+	background-color:#0099ff;
+}
+.serve-d h4{
+	font-size:14px;
+	font-weight:bold;
+	padding-top:40px;
+	text-transform:uppercase;
+}
+.serve-d p{
+	font-size:14px;
+	padding-top:20px;
+	
+}
+.serve h1{
+	
+	font-weight:bold;
+	font-size:24px;
+}
+.serve-d button{
+	height:40px;
+	color:white;
+	background-color:#3399cc;
+	border-radius:0px;
+}
+.serve-d button:hover{
+	height:40px;
+	color:black;
+	background-color:white;
+	border-radius:"0px";
+}
+.btn{
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+/*counter section css goes here*/
+
+.count{
+	text-align:center;
+	padding-top:100px;
+	font-family:poppins Regular;
+	padding-bottom:100px;
+	color:white;
+}
+.count h1{
+	font-family:poppins Regular;
+	font-size:54px;
+}
+.count p{
+	font-family:poppins Regular;
+	font-size:12px;
+}
+#counterR{
+	background:url(image/counter.png) no-repeat;
+	opacity:3.8;
+}
+
+/*portfolio section*/
+.portfolio-head h1{
+	font-family:poppins ;
+	font-size:21px;
+	font-weight:bold;
+	padding-bottom:35px;
+	padding-top:100px;
+}
+.portfolio-head p{
+	font-family:poppins ;
+	font-size:14px;
+	padding-bottom:90px;
+	
+	
+}
+
+/*portfolio nav*/
+.main {
+    max-width: 1000px;
+    margin: auto;
+	text-align:center;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+	
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+  color:black;
+  font-family:poppins ;
+   font-size:12px;
+   font-weight:bold;
+}
+
+.btn:hover {
+  background-color:#3399cc;
+  color:white;
+}
+
+
+.portfolio-nav {
+	padding-bottom:50px;
+}
+
+/*our pricing*/
+#pricing{
+	padding-bottom:40px;
+}
+.basic{
+	background-color:white;
+	font-family:poppins Regular;
+	height:480px;
+	color:white;
+	padding-top:20px;
+	
+	
+}
+.basics{
+	background-color:#339933;
+	width:100%;
+	height:480px;
+	border-radius:5px;
+}
+.price h3{
+	font-size:30px;
+	padding-top:60px;
+	padding-bottom:20px;
+	font-family:poppins Regular;
+	
+}
+.price h1{
+	font-size:30px;
+	font-weight:bold;
+	padding-bottom:20px;
+	font-family:poppins Regular;
+	
+}
+.price p{
+	font-size:16px;
+	font-family:poppins Regular;
+	line-height: 0.5;
+	word-spacing: 1px;
+}
+.price button{
+	font-size:16px;
+	font-family:poppins Regular;
+	background-color:#339933;
+	border-radius:5px;
+	margin-top:50px;
+}
+.price button:hover{
+	font-size:16px;
+	font-family:poppins Regular;
+	background-color:white;
+	color:#339933;
+	border-radius:5px;
+
+}
+.standard{
+	background-color:black;
+	border-radius:5px;
+	font-family:poppins Regular;
+	height:480px;
+	color:white;
+}
+.standard h3{
+	color:white;
+}
+.standard button{
+	background-color:black;
+}
+.unlimited{
+	background-color:#0099ff;
+	border-radius:5px;
+	font-family:poppins Regular;
+	height:480px;
+	color:white;
+}
+.unlimited button{
+	background-color:#0099ff;
+}
+/*our team member*/
+#team-member{
+	font-family:poppins ;
+	text-align:center;
+	padding-top:100px;
+	padding-bottom:100px;
+	background-color:#cccccc;
+	position:relative;
+	padding-bottom:-400px;
+	
+}
+#team-member heading,h1{
+	font-family:poppins ;
+	font-size:21px;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+#team-member heading,p{
+	font-family:poppins;
+	font-size:14px;	
+}
+.member1{
+	background-color:white;
+	margin-right:120px;
+	margin-top:30px;
+	
+}
+#team-member text,h3{
+	font-size:12px;
+	color:black;
+	padding-top:20px;
+	font-family:poppins ;
+	font-weight:bold;
+}
+#team-member text,h5{
+	font-size:12px;
+	color:#0099ff;
+	font-family:poppins ;
+	font-weight:bold;
+}
+
+.member1:hover{
+	border:2px solid #0099ff;
+	
+}
+.member1 .first{
+	width:80%;
+	padding-top:30px;
+	height:290px;
+	padding-bottom:30px;
+}
+.member2{
+	background-color:white;
+	margin-right:120px;
+	padding-bottom:30px;
+	margin-top:30px;
+	
+}
+.member2:hover{
+	border:2px solid #0099ff;
+	
+}
+.member2 .first{
+	width:80%;
+	padding-top:30px;
+	height:290px;
+	
+}
+
+.member3{
+	background-color:white;
+	margin-right:120px;
+	margin-top:30px;
+	
+}
+.member3:hover{
+	border:2px solid #0099ff;
+	
+}
+.member3 .first{
+	width:80%;
+	padding-top:30px;
+	height:290px;
+	
+}
+
+.member4{
+	background-color:white;
+	margin-top:30px;
+	
+}
+.member4:hover{
+	border:2px solid #0099ff;
+	
+}
+.member4 .first{
+	width:70%;
+	padding-top:30px;
+	height:290px;
+}
+
+/*john doe seo */
+#seo{
+	margin-bottom:0px;
+	position:relative;
+	margin-top:-10px;
+}
+.str{
+	color:#0099ff;
+	padding-left:5px;
+	
+}
+.seoo p{
+	font-size:12px;
+	color:black;
+	font-family:poppins ;
+	font-weight:bold;
+}
+.seoimg{
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+/*are you ready section*/
+#promote{
+	background-color:#00cc66;
+	color:white;
+}
+#promote h1{
+	font-size:30px;
+	font-family:poppins ;
+	padding-top:80px;
+}
+#promote p{
+	font-size:14px;
+	font-family:poppins ;
+	padding-bottom:70px;
+}
+#promote button {
+	height:50px;
+	width:180px;
+	margin-top:80px;
+	margin-bottom:50px;
+}
+
+/*footer design*/
+#footer{
+	background-color:#000000;
+	position:Relative;
+	margin-top:-10px;
+
+}
+#footer h1{
+	font-size:18px;
+	font-family:poppins ;
+	color:#ffffff;
+	padding-top:150px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+#footer p{
+	font-size:14px;
+	font-family:poppins ;
+	color:#999999;
+}
+#footer .social .icon{
+	padding-left:30px;
+	
+}
+.social{
+	padding-bottom:50px;
+}
+#footer .support h1{
+	font-size:18px;
+	font-family:poppins ;
+	color:#ffffff;
+	font-weight:bold;
+	
+}
+#footer .support p{
+	font-family:poppins;
+	color:#999999;
+	font-size:14px;
+}
+hr.new1 {
+  border-top: 2px solid #333333;
+  width:100%;
+  padding:0px;
+  margin:0px;
+}
+#reserve{
+	background-color:#000000;
+	padding-top:40px;
+	color:white;
+	font-size:18px;
+	font-family:poppins ;
+
+}
